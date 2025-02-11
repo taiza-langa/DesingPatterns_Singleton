@@ -12,8 +12,15 @@ O ConfigurationManager é uma classe que garante que apenas uma instância seja 
 - Padrão de projeto Singleton
   
 <h2>🚀 Como funciona</h2>
-1- A classe ConfigurationManager possui um construtor privado, impedindo a criação de novas instâncias externas.
 
-2- A única instância da classe é acessada através do método getInstance().
+- A classe ConfigurationManager possui um construtor privado, impedindo a criação de novas instâncias externas.
 
-3- As configurações são inicializadas internamente e podem ser acessadas por meio de métodos públicos.
+- A única instância da classe é acessada através do método getInstance().
+
+- As configurações são inicializadas internamente e podem ser acessadas por meio de métodos públicos.
+
+<h2>🔥 Benefícios do Singleton</h2>
+
+> ✅ Evita a criação de múltiplas instâncias desnecessárias
+> ✅ Garante um ponto único de acesso às configurações
+> ✅ Permite melhor controle e manutenção do código
