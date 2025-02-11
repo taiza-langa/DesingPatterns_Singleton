@@ -1,18 +1,17 @@
-## Getting Started
+## ConfigurationManager - Padrão Singleton em Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este repositório contém uma implementação do padrão Singleton em Java para gerenciar configurações globais da aplicação.
 
-## Folder Structure
+<h2>📌 Sobre o projeto</h2>
 
-The workspace contains two folders by default, where:
+O ConfigurationManager é uma classe que garante que apenas uma instância seja criada e utilizada ao longo do programa. Ele armazena configurações essenciais, como a URL do banco de dados e a chave de API, simulando um gerenciador de configurações.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+<h2>🛠️ Tecnologias utilizadas</h2>
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- Java
+- Padrão de projeto Singleton
+  
+<h2>🚀 Como funciona</h2>
+1- A classe ConfigurationManager possui um construtor privado, impedindo a criação de novas instâncias externas.
+2- A única instância da classe é acessada através do método getInstance().
+3- As configurações são inicializadas internamente e podem ser acessadas por meio de métodos públicos.
