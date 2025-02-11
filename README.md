@@ -1,4 +1,4 @@
-## ConfigurationManager - Padrão Singleton em Java
+<h1>ConfigurationManager - Padrão Singleton em Java</h1>
 
 Este repositório contém uma implementação do padrão Singleton em Java para gerenciar configurações globais da aplicação.
 
