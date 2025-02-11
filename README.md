@@ -15,4 +15,5 @@ O ConfigurationManager é uma classe que garante que apenas uma instância seja 
 1- A classe ConfigurationManager possui um construtor privado, impedindo a criação de novas instâncias externas.
 
 2- A única instância da classe é acessada através do método getInstance().
+
 3- As configurações são inicializadas internamente e podem ser acessadas por meio de métodos públicos.
